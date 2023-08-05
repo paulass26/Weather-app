@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.col {
+  text-align: center;
+}
+.form-line {
+  margin-left: 100px;
+}
+.float-left {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+h2 {
+  color: black;
+  text-align: center;
+}
+#imag {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
