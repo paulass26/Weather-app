@@ -53,6 +53,7 @@ function displayForecast() {
   });
   forecastHTML = forecastHTML + `</div> `;
   forecastElement.innerHTML = forecastHTML;
+  console.log(forecastHTML);
 }
 //challenge 5//
 let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
