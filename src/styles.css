@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
 }
+
 .city {
   color: black;
   font-size: 24px;
@@ -34,6 +35,10 @@ body {
   border: 1px solid blue;
   border-radius: 10px;
 }
+.overview {
+  margin-bottom: 10px;
+}
+
 .float-left {
   font-size: 24px;
   font-weight: 100;
@@ -42,7 +47,7 @@ body {
   text-align: center;
 }
 li {
-  list-style: none;
+  list-style: inside;
   margin: 0;
   padding: 0;
 
@@ -81,15 +86,31 @@ ul {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
+  color: #000;
 }
-.weather-forcast-date {
+
+.weather-forecast-date {
   font-size: 16px;
+  opacity: 0.7;
   color: blue;
-  opacity: 0.5;
 }
+
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  opacity: 0.7;
 }
-.weather-forecast-temperature {
+
+.weather-forecast-temperatures {
   font-size: 13px;
+}
+.weather-temperature img {
+  margin-right: 5px;
+  height: 70px;
+  width: 70px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
 }
